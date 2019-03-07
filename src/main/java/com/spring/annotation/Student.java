@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class Student {
-    @Value("Tom")
+    @Value("Sunming")
     private String name;
 
-    @Value("20")
+    @Value("21")
     private int age;
 
     //注入@Autowired注入

@@ -16,6 +16,7 @@
             <artifactId>spring-context</artifactId>
             <version>5.0.10.RELEASE</version>
         </dependency>
+    </dependencies>
         <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -39,5 +40,8 @@
             <version>1.2.16</version>
         </dependency>
     </dependencies>
-    
+    <properties>
+               <maven.compiler.source>1.8</maven.compiler.source>
+                <maven.compiler.target>1.8</maven.compiler.target>
+         </properties>
 </project>

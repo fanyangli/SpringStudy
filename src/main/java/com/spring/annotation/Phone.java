@@ -11,9 +11,9 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class Phone {
-    @Value("iPhone")
+    @Value("华为")
     private String brand;
 
-    @Value("6666.66")
+    @Value("1888.88")
     private double price;
 }
